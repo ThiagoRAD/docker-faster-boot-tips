@@ -2,7 +2,7 @@
 
 start=`date +%s`
 
-npm install --legacy-peer-deps
+npm install --legacy-peer-deps 
 
 end=`date +%s`
 runtime=$(echo "$end - $start" | bc -l)
